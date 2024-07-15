@@ -26,9 +26,12 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2024-07-09 12:24:03 +0000",
+      "minecraft:old_growth_pine_taiga": "2024-07-15 11:46:44 +0000",
       "minecraft:taiga": "2024-07-09 13:40:45 +0000",
+      "minecraft:eroded_badlands": "2024-07-15 11:56:12 +0000",
       "minecraft:frozen_river": "2024-07-09 13:31:27 +0000",
       "minecraft:cherry_grove": "2024-07-07 12:21:39 +0000",
+      "minecraft:birch_forest": "2024-07-15 12:46:31 +0000",
       "minecraft:wooded_badlands": "2024-07-10 13:42:09 +0000",
       "minecraft:badlands": "2024-07-10 13:37:01 +0000",
       "minecraft:beach": "2024-07-09 13:38:02 +0000",
@@ -39,10 +42,12 @@
       "minecraft:snowy_plains": "2024-07-09 13:36:14 +0000",
       "minecraft:jagged_peaks": "2024-07-09 12:23:45 +0000",
       "minecraft:forest": "2024-07-09 13:38:22 +0000",
+      "minecraft:lush_caves": "2024-07-15 12:15:32 +0000",
       "minecraft:desert": "2024-07-11 12:10:57 +0000",
       "minecraft:ocean": "2024-07-10 12:58:36 +0000",
       "minecraft:jungle": "2024-07-10 13:38:42 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-07-10 12:25:19 +0000",
+      "minecraft:snowy_beach": "2024-07-15 11:43:08 +0000",
       "minecraft:warm_ocean": "2024-07-11 12:27:00 +0000",
       "minecraft:frozen_peaks": "2024-07-09 12:18:37 +0000",
       "minecraft:old_growth_birch_forest": "2024-07-10 12:59:03 +0000",
@@ -511,11 +516,13 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-07-15 11:50:15 +0000",
       "cooked_mutton": "2024-07-09 12:44:02 +0000",
       "sweet_berries": "2024-07-09 12:30:06 +0000",
       "cooked_beef": "2024-07-10 13:09:31 +0000",
       "baked_potato": "2024-07-09 12:40:27 +0000",
-      "bread": "2024-07-09 12:51:57 +0000"
+      "bread": "2024-07-09 12:51:57 +0000",
+      "glow_berries": "2024-07-15 13:02:38 +0000"
     },
     "done": false
   },
@@ -729,8 +736,10 @@
       "minecraft:skeleton": "2024-07-09 12:52:28 +0000",
       "minecraft:spider": "2024-07-09 12:40:18 +0000",
       "minecraft:husk": "2024-07-10 13:42:19 +0000",
+      "minecraft:cave_spider": "2024-07-12 12:29:42 +0000",
       "minecraft:silverfish": "2024-07-10 12:54:53 +0000",
-      "minecraft:zombie": "2024-07-09 13:09:41 +0000"
+      "minecraft:zombie": "2024-07-09 13:09:41 +0000",
+      "minecraft:drowned": "2024-07-15 12:49:41 +0000"
     },
     "done": false
   },
@@ -1936,6 +1945,7 @@
   },
   "repurposed_structures:villages": {
     "criteria": {
+      "in_village_badlands": "2024-07-15 11:56:12 +0000",
       "in_village_birch": "2024-07-10 13:01:23 +0000"
     },
     "done": false
@@ -2534,6 +2544,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-07-11 12:32:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2024-07-11 12:36:15 +0000"
@@ -2588,12 +2604,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dripstone_block": {
-    "criteria": {
-      "has_pointed_dripstone": "2024-07-11 12:32:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2024-07-11 12:36:15 +0000"
@@ -2609,6 +2619,246 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2024-07-11 12:36:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2024-07-12 11:54:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2024-07-12 11:54:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2024-07-12 11:54:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-07-12 12:29:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-07-12 12:33:10 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_bricks_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_veridium_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2024-07-15 12:06:57 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_brick_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-07-15 12:37:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/veridium_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2024-07-15 12:06:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_veridium_bricks_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_veridium_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_veridium_brick_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_veridium_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2024-07-15 12:06:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_brick_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematic_and_quill": {
+    "criteria": {
+      "has_item": "2024-07-15 12:37:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/empty_schematic": {
+    "criteria": {
+      "has_item": "2024-07-15 12:37:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2024-07-15 13:01:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-07-15 11:59:01 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2024-07-15 12:01:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_veridium_brick_wall_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_brick_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2024-07-15 12:26:22 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/sand_paper": {
+    "criteria": {
+      "has_item": "2024-07-15 12:37:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-07-15 12:26:22 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_veridium_stairs_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/red_sand_paper": {
+    "criteria": {
+      "has_item": "2024-07-15 12:37:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2024-07-15 13:01:01 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_veridium_brick_slab_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-07-15 12:37:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_veridium_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/veridium_pillar_from_stone_types_veridium_stonecutting": {
+    "criteria": {
+      "has_stone_types_veridium": "2024-07-15 13:01:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2024-07-15 12:26:22 +0000"
     },
     "done": true
   },
